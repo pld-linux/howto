@@ -32,13 +32,13 @@ cd ..
 find . -type f | xargs gzip -9  
 
 %install
-install -d  $RPM_BUILD_ROOT/usr/doc/HOWTO/text
+install -d  $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
 
-cp -ar *    $RPM_BUILD_ROOT/usr/doc/HOWTO/text 
+cp -ar *    $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text 
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-/usr/doc/HOWTO/text/
+%{_defaultdocdir}/HOWTO/text/
