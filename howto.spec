@@ -42,12 +42,3 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 /usr/doc/HOWTO/text/
-
-%changelog
-* Thu Apr 15 1999 Micha³ Kuratczyk <kura@pld.org.pl>
-  [1.0-2]
-- added pl translations
-- cosmetic changes
-
-* Wed Jan 14 1999 Ziemek Borowski <ziembor@faq-bot.ziembor.waw.pl>
-- null
