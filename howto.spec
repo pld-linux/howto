@@ -2,11 +2,11 @@ Summary:	Various HOWTOs from the Linux Documentation Project
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Name:		howto
 Version:	1.0
-Release:	3
+Release:	4
 Group:		Documentation
 Group(de):	Dokumentation
 Group(pl):	Dokumentacja
-Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs.tar.gz
+Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-20010716.tar.gz
 Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-mini-HOWTOs.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
@@ -29,6 +29,8 @@ cette adresse: http://www.linuxdoc.org/docs.html#howto
 %description -l pl
 To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
 du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuxem.
+Najnowsze wersje tych dokumentów znajdziesz pod adresem:
+http://www.linuxdoc.org/docs.html#howto
 
 %prep 
 %setup -qc
