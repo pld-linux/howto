@@ -3,7 +3,7 @@ Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Name:		howto
 Version:	1.0
 Release:	5
-License:	Distributable
+License:	distributable
 Group:		Documentation
 Group(de):	Dokumentation
 Group(pl):	Dokumentacja
