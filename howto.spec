@@ -10,7 +10,7 @@ Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-mini-HOWTOs.tar.gz
 Copyright:	distributable
 BuildArch:	noarch
 Obsoletes:	ldp
-BuildRoot:	/tmp/%{name}-%{version}-root
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This is the best collection of Linux documentation there is.  It
