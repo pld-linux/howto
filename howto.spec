@@ -1,21 +1,29 @@
 Summary:	Various HOWTOs from the Linux Documentation Project
+Summary(es): Varios HOWTOs del Proyecto de Documentación del Linux (LDP)
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
+Summary(pt_BR): Vários HOWTOs do Projeto de Documentação do Linux (LDP)
 Name:		howto
-Version:	20020217
+Version:	20020512
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-%{version}.tar.gz
 Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/Linux-mini-HOWTOs-%{version}.tar.gz
 BuildArch:	noarch
-Obsoletes:	ldp
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	ldp
 
 %description
 Linux HOWTOs are detailed documents which describe a specific aspect
 of configuring or using Linux. Linux HOWTOs are a great source of
 practical information about your system. The latest versions of these
 documents are located at http://www.linuxdoc.org/docs.html#howto
+
+%description -l es
+Esta es la mejor colección existente de documentos Linux. Si deseas
+encontrar las versiones más recientes de estos documentos mira en
+http://sunsite.unc.edu/Linux. Las versiones en este paquete están
+en el directorio /usr/share/doc/HOWTO.
 
 %description -l fr
 Les HOWTO Linux sont des documents décrivant de façon exhaustive un
@@ -30,6 +38,12 @@ To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
 du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuxem. Najnowsze
 wersje tych dokumentów znajdziesz pod adresem:
 http://www.linuxdoc.org/docs.html#howto
+
+%description -l pt_BR
+Esta é a melhor coleção existente de documentos Linux. Se você
+deseja encontrar as versões mais recentes destes documentos
+veja em http://sunsite.unc.edu/Linux. As versões neste pacote
+estão no diretório /usr/share/doc/HOWTO.
 
 %prep
 %setup -qc
