@@ -13,14 +13,14 @@ Obsoletes:	ldp
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is the best collection of Linux documentation there is.  It
-was put together on Apr 15 1998.  If you want to find newer
-versions of these documents, see http://sunsite.unc.edu/linux.
-For the versions in this package, see /usr/doc/HOWTO.
+This is the best collection of Linux documentation there is. It was
+put together on Apr 15 1998. If you want to find newer versions of
+these documents, see http://sunsite.unc.edu/linux. For the versions in
+this package, see /usr/doc/HOWTO.
 
 %description -l pl
-To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na du¿± czê¶æ
-pytañ pojawiaj±cych siê przy pracy z Linuxem.
+To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
+du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuxem.
 
 %prep 
 
@@ -32,6 +32,7 @@ cd ..
 find . -type f | xargs gzip -9  
 
 %install
+rm -rf $RPM_BUILD_ROOT
 install -d  $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
 
 cp -ar *    $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text 
