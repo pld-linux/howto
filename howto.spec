@@ -7,7 +7,7 @@ Group:		Documentation
 Group(de):	Dokumentation
 Group(pl):	Dokumentacja
 Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-20010716.tar.gz
-Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-mini-HOWTOs.tar.gz
+Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-mini-HOWTOs-20010716.tar.gz 
 Copyright:	distributable
 BuildArch:	noarch
 Obsoletes:	ldp
