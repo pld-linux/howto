@@ -17,7 +17,7 @@ of configuring or using Linux. Linux HOWTOs are a great source of
 practical information about your system. The latest versions of these
 documents are located at http://www.linuxdoc.org/docs.html#howto
 
-%description -l fr                                                                                            
+%description -l fr
 Les HOWTO Linux sont des documents décrivant de façon exhaustive un
 aspect de la configuration ou de l'utilisation d'un système Linux. Les
 HOWTO Linux sont l'une des meilleures sources d'information sur la
@@ -31,19 +31,19 @@ du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuxem. Najnowsze
 wersje tych dokumentów znajdziesz pod adresem:
 http://www.linuxdoc.org/docs.html#howto
 
-%prep 
+%prep
 %setup -qc
 %setup -qcT -a1 -n %{name}-%{version}/mini
 %setup -qDT -n %{name}-%{version}
 
 %build
-find . -type f | xargs gzip -9  
+find . -type f | xargs gzip -9
 
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d  $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
 
-cp -ar *    $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text 
+cp -ar *    $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
 
 %clean
 rm -rf $RPM_BUILD_ROOT
