@@ -50,7 +50,7 @@ estão no diretório /usr/share/doc/HOWTO.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d  $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
+install -d $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
 
 cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
 
