@@ -4,20 +4,21 @@ Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Summary(pt_BR):	Vários HOWTOs do Projeto de Documentação do Linux (LDP)
 Name:		howto
 Version:	20040901
-Release:	2
+Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-%{version}.tar.bz2
-# Source0-md5:	97e0e3d12e476b8a61048f27947d3e02
+# Source0-md5:	3151a7b1104b091a528fbf53081c70d4
+URL:		http://www.tldp.org/docs.html#howto
+Obsoletes:	ldp
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Obsoletes:	ldp
 
 %description
 Linux HOWTOs are detailed documents which describe a specific aspect
 of configuring or using Linux. Linux HOWTOs are a great source of
 practical information about your system. The latest versions of these
-documents are located at http://www.linuxdoc.org/docs.html#howto
+documents are located at http://www.tldp.org/docs.html#howto
 
 %description -l es
 Esta es la mejor colección existente de documentos Linux. Si deseas
@@ -31,13 +32,13 @@ aspect de la configuration ou de l'utilisation d'un système Linux. Les
 HOWTO Linux sont l'une des meilleures sources d'information sur la
 pratique de votre système. La dernière version de chacun de ces
 documents peut être touvée à cette adresse:
-http://www.linuxdoc.org/docs.html#howto
+http://www.tldp.org/docs.html#howto
 
 %description -l pl
 To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
 du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuxem. Najnowsze
 wersje tych dokumentów znajdziesz pod adresem:
-http://www.linuxdoc.org/docs.html#howto
+http://www.tldp.org/docs.html#howto
 
 %description -l pt_BR
 Esta é a melhor coleção existente de documentos Linux. Se você
@@ -59,4 +60,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_defaultdocdir}/HOWTO/text/
+%{_defaultdocdir}/HOWTO/text
