@@ -3,7 +3,7 @@ Summary(es): Varios HOWTOs del Proyecto de Documentación del Linux (LDP)
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Summary(pt_BR): Vários HOWTOs do Projeto de Documentação do Linux (LDP)
 Name:		howto
-Version:	20020512
+Version:	20020907
 Release:	1
 License:	distributable
 Group:		Documentation
@@ -50,14 +50,11 @@ estão no diretório /usr/share/doc/HOWTO.
 %setup -qcT -a1 -n %{name}-%{version}/mini
 %setup -qDT -n %{name}-%{version}
 
-%build
-find . -type f | xargs gzip -9
-
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d  $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
 
-cp -ar *    $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
+cp -ar * $RPM_BUILD_ROOT%{_defaultdocdir}/HOWTO/text
 
 %clean
 rm -rf $RPM_BUILD_ROOT
