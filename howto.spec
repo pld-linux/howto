@@ -1,14 +1,14 @@
 Summary:	Various HOWTOs from the Linux Documentation Project
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Name:		howto
-Version:	1.0
-Release:	5
+Version:	20011122
+Release:	1
 License:	distributable
 Group:		Documentation
 Group(de):	Dokumentation
 Group(pl):	Dokumentacja
-Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-20010915.tar.gz
-Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/Linux-mini-HOWTOs-20010915.tar.gz 
+Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-%{version}.tar.gz
+Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/Linux-mini-HOWTOs-%{version}.tar.gz 
 BuildArch:	noarch
 Obsoletes:	ldp
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
