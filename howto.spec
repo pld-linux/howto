@@ -1,35 +1,48 @@
 Summary:	Various HOWTOs from the Linux Documentation Project
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Name:		howto
-Version:	20020131
+Version:	20020217
 Release:	1
 License:	distributable
 Group:		Documentation
+Group(cs):	Dokumentace
+Group(da):	Dokumentationen
 Group(de):	Dokumentation
+Group(es):	Documentación
+Group(fr):	Documentacion
+Group(is):	Skjölun
+Group(it):	Documentazione
+Group(no):	Dokumentasjonen
 Group(pl):	Dokumentacja
+Group(pt):	Documentação
+Group(ru):	äÏËÕÍÅÎÔÁÃÉÑ
+Group(sl):	Dokumentacija
+Group(sv):	Dokumentation
+Group(uk):	äÏËÕÍÅÎÔÁÃ¦Ñ
 Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-%{version}.tar.gz
-Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/Linux-mini-HOWTOs-%{version}.tar.gz 
+Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/Linux-mini-HOWTOs-%{version}.tar.gz
 BuildArch:	noarch
 Obsoletes:	ldp
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Linux HOWTOs are detailed documents which describe a specific aspect of
-configuring or using Linux. Linux HOWTOs are a great source of practical
-information about your system. The latest versions of these documents are
-located at http://www.linuxdoc.org/docs.html#howto
+Linux HOWTOs are detailed documents which describe a specific aspect
+of configuring or using Linux. Linux HOWTOs are a great source of
+practical information about your system. The latest versions of these
+documents are located at http://www.linuxdoc.org/docs.html#howto
 
 %description -l fr                                                                                            
-Les HOWTO Linux sont des documents décrivant de façon exhaustive un aspect
-de la configuration ou de l'utilisation d'un système Linux. Les HOWTO Linux
-sont l'une des meilleures sources d'information sur la pratique de votre
-système. La dernière version de chacun de ces documents peut être touvée à
-cette adresse: http://www.linuxdoc.org/docs.html#howto
+Les HOWTO Linux sont des documents décrivant de façon exhaustive un
+aspect de la configuration ou de l'utilisation d'un système Linux. Les
+HOWTO Linux sont l'une des meilleures sources d'information sur la
+pratique de votre système. La dernière version de chacun de ces
+documents peut être touvée à cette adresse:
+http://www.linuxdoc.org/docs.html#howto
 
 %description -l pl
 To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
-du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuxem.
-Najnowsze wersje tych dokumentów znajdziesz pod adresem:
+du¿± czê¶æ pytañ pojawiaj±cych siê przy pracy z Linuxem. Najnowsze
+wersje tych dokumentów znajdziesz pod adresem:
 http://www.linuxdoc.org/docs.html#howto
 
 %prep 
