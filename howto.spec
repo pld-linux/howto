@@ -7,7 +7,9 @@ Version:	20030422
 Release:	1
 License:	distributable
 Group:		Documentation
+# Source0-md5:	e58e33387884d646395170104ef6674e
 Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-%{version}.tar.gz
+# Source1-md5:	bf84e5c04f171cfd4eff332847eec15a
 Source1:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/mini/Linux-mini-HOWTOs-%{version}.tar.gz
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
