@@ -1,7 +1,7 @@
 Summary:	Various HOWTOs from the Linux Documentation Project
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Name:		howto
-Version:	20011122
+Version:	20020131
 Release:	1
 License:	distributable
 Group:		Documentation
