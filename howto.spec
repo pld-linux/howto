@@ -14,10 +14,17 @@ Obsoletes:	ldp
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This is the best collection of Linux documentation there is. It was
-put together on Apr 15 1998. If you want to find newer versions of
-these documents, see http://sunsite.unc.edu/linux. For the versions in
-this package, see /usr/doc/HOWTO.
+Linux HOWTOs are detailed documents which describe a specific aspect of
+configuring or using Linux. Linux HOWTOs are a great source of practical
+information about your system. The latest versions of these documents are
+located at http://www.linuxdoc.org/docs.html#howto
+
+%description -l fr                                                                                            
+Les HOWTO Linux sont des documents décrivant de façon exhaustive un aspect
+de la configuration ou de l'utilisation d'un système Linux. Les HOWTO Linux
+sont l'une des meilleures sources d'information sur la pratique de votre
+système. La dernière version de chacun de ces documents peut être touvée à
+cette adresse: http://www.linuxdoc.org/docs.html#howto
 
 %description -l pl
 To jest zbiór dokumentów HOWTO, w których znajdziesz odpowiedzi na
