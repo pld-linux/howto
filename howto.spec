@@ -3,12 +3,12 @@ Summary(es):	Varios HOWTOs del Proyecto de Documentación del Linux (LDP)
 Summary(pl):	Rozmaite dokumenty HOWTO z Linux Documentation Project
 Summary(pt_BR):	Vários HOWTOs do Projeto de Documentação do Linux (LDP)
 Name:		howto
-Version:	20060318
+Version:	20060527
 Release:	1
 License:	distributable
 Group:		Documentation
 Source0:	ftp://metalab.unc.edu/pub/Linux/docs/HOWTO/Linux-HOWTOs-%{version}.tar.bz2
-# Source0-md5:	067116838851c6392ea67141ef154c4f
+# Source0-md5:	ea278620079f4f9555ed159bca7af7a2
 URL:		http://www.tldp.org/docs.html#howto
 Obsoletes:	ldp
 BuildArch:	noarch
